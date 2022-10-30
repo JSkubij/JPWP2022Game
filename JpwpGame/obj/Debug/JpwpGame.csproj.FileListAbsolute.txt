@@ -1,0 +1,10 @@
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\bin\Debug\JpwpGame.exe.config
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\bin\Debug\JpwpGame.exe
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\bin\Debug\JpwpGame.pdb
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.AssemblyReference.cache
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Form1.resources
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Properties.Resources.resources
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.GenerateResource.cache
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.CoreCompileInputs.cache
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\obj\Debug\JpwpGame.exe
+C:\Users\jakub\OneDrive\Pulpit\JpwpGame\JpwpGame\obj\Debug\JpwpGame.pdb
