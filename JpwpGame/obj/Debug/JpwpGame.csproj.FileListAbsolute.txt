@@ -12,10 +12,11 @@ C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\bin\Debug\Jpw
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\bin\Debug\JpwpGame.exe
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\bin\Debug\JpwpGame.pdb
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.AssemblyReference.cache
-C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Form1.resources
-C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Form2.resources
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Properties.Resources.resources
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.GenerateResource.cache
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.CoreCompileInputs.cache
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.exe
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.pdb
+C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.ZdrowieToJestTo.resources
+C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Menu.resources
+C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Pomoc.resources

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JpwpGame.Menu">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAAAAAAACQAAACAEA4AAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JpwpGame.Pomoc">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgEABCAkgEIAAACAAAACQIQAAAAAAAAACEAAAAA=</HashCode>
+      <FileName>Pomoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JpwpGame.Program">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JpwpGame.ZdrowieToJestTo">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgSkIIQmgCAIARgAYMGKCHACBBAAgwCAAQMAEhBSARA=</HashCode>
+      <FileName>ZdrowieToJestTo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JpwpGame.Properties.Resources">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAgAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JpwpGame.Properties.Settings">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
