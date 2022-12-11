@@ -74,6 +74,7 @@ namespace JpwpGame
             this.button3.TabIndex = 3;
             this.button3.Text = "Pomoc";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -96,6 +97,7 @@ namespace JpwpGame
             this.Controls.Add(this.tytul);
             this.Name = "Menu";
             this.Text = "Menu";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Menu_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

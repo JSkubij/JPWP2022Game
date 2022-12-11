@@ -24,7 +24,9 @@ namespace JpwpGame
 
         private void powrot_Click(object sender, EventArgs e)
         {
-
+            Menu f4 = new Menu();
+            this.Hide();
+            f4.ShowDialog();
         }
 
         private void Opisporady_Click(object sender, EventArgs e)
@@ -50,6 +52,11 @@ namespace JpwpGame
         private void tytul_pomoc_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Pomoc_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

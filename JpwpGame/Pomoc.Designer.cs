@@ -132,6 +132,7 @@ namespace JpwpGame
             this.Controls.Add(this.powrot);
             this.Name = "Pomoc";
             this.Text = "Pomoc";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Pomoc_FormClosed);
             this.Load += new System.EventHandler(this.Pomoc_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

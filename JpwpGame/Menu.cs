@@ -28,5 +28,17 @@ namespace JpwpGame
             this.Hide();
             f2.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Pomoc f3 = new Pomoc();
+            this.Hide();
+            f3.ShowDialog();
+        }
+
+        private void Menu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
