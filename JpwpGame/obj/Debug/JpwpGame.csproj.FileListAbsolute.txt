@@ -20,3 +20,4 @@ C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\Jpw
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.ZdrowieToJestTo.resources
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Menu.resources
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Pomoc.resources
+C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Koncowy.resources

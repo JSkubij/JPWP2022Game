@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="steropis.Text" xml:space="preserve">
+    <value>Sterowanie postacią odbywa się za pomocą strzałek
+Aby wybrać opcję z 3 przed nami trzeba wejść na odpowiednie pole i następnie kliknąć guzik dla odpowiedniej opcji:
+Opcja 1 - Num1
+Opcja 2 - Num2
+Opcja 3 - Num3
+Aby wrócić do menu należy kliknąć guzik zębatki
+</value>
+  </data>
 </root>

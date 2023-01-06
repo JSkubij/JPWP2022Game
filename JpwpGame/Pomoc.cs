@@ -58,5 +58,10 @@ namespace JpwpGame
         {
             Application.Exit();
         }
+
+        private void steropis_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

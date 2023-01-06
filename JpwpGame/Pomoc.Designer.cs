@@ -29,6 +29,7 @@ namespace JpwpGame
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pomoc));
             this.powrot = new System.Windows.Forms.Button();
             this.tytul_pomoc = new System.Windows.Forms.Label();
             this.Opisgry = new System.Windows.Forms.Label();
@@ -41,9 +42,9 @@ namespace JpwpGame
             // 
             // powrot
             // 
-            this.powrot.Location = new System.Drawing.Point(368, 399);
+            this.powrot.Location = new System.Drawing.Point(347, 365);
             this.powrot.Name = "powrot";
-            this.powrot.Size = new System.Drawing.Size(75, 23);
+            this.powrot.Size = new System.Drawing.Size(115, 63);
             this.powrot.TabIndex = 0;
             this.powrot.Text = "Powrót";
             this.powrot.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@ namespace JpwpGame
             // tytul_pomoc
             // 
             this.tytul_pomoc.AutoSize = true;
-            this.tytul_pomoc.Location = new System.Drawing.Point(383, 47);
+            this.tytul_pomoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.tytul_pomoc.Location = new System.Drawing.Point(340, 9);
             this.tytul_pomoc.Name = "tytul_pomoc";
-            this.tytul_pomoc.Size = new System.Drawing.Size(40, 13);
+            this.tytul_pomoc.Size = new System.Drawing.Size(122, 37);
             this.tytul_pomoc.TabIndex = 1;
             this.tytul_pomoc.Text = "Pomoc";
             this.tytul_pomoc.Click += new System.EventHandler(this.tytul_pomoc_Click);
@@ -62,28 +64,32 @@ namespace JpwpGame
             // Opisgry
             // 
             this.Opisgry.AutoSize = true;
-            this.Opisgry.Location = new System.Drawing.Point(355, 107);
+            this.Opisgry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Opisgry.Location = new System.Drawing.Point(13, 100);
             this.Opisgry.Name = "Opisgry";
-            this.Opisgry.Size = new System.Drawing.Size(88, 13);
+            this.Opisgry.Size = new System.Drawing.Size(614, 40);
             this.Opisgry.TabIndex = 2;
-            this.Opisgry.Text = "Tu wpisz opis gry";
+            this.Opisgry.Text = "Gra polega na promowaniu i nauce zdrowego odżywiania, poprzez odpowienie wybory.\r" +
+    "\n\r\n";
             this.Opisgry.Click += new System.EventHandler(this.Opisgry_Click);
             // 
             // Tytulster
             // 
             this.Tytulster.AutoSize = true;
-            this.Tytulster.Location = new System.Drawing.Point(374, 143);
+            this.Tytulster.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.Tytulster.Location = new System.Drawing.Point(12, 130);
             this.Tytulster.Name = "Tytulster";
-            this.Tytulster.Size = new System.Drawing.Size(60, 13);
+            this.Tytulster.Size = new System.Drawing.Size(129, 25);
             this.Tytulster.TabIndex = 3;
             this.Tytulster.Text = "Sterowanie";
             // 
             // Tytulopis
             // 
             this.Tytulopis.AutoSize = true;
-            this.Tytulopis.Location = new System.Drawing.Point(378, 77);
+            this.Tytulopis.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.Tytulopis.Location = new System.Drawing.Point(12, 75);
             this.Tytulopis.Name = "Tytulopis";
-            this.Tytulopis.Size = new System.Drawing.Size(45, 13);
+            this.Tytulopis.Size = new System.Drawing.Size(100, 25);
             this.Tytulopis.TabIndex = 4;
             this.Tytulopis.Text = "Opis gry";
             this.Tytulopis.Click += new System.EventHandler(this.Tytulopis_Click);
@@ -91,18 +97,21 @@ namespace JpwpGame
             // steropis
             // 
             this.steropis.AutoSize = true;
-            this.steropis.Location = new System.Drawing.Point(355, 172);
+            this.steropis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.steropis.Location = new System.Drawing.Point(12, 155);
             this.steropis.Name = "steropis";
-            this.steropis.Size = new System.Drawing.Size(103, 13);
+            this.steropis.Size = new System.Drawing.Size(814, 120);
             this.steropis.TabIndex = 5;
-            this.steropis.Text = "Tu wpisz sterowanie";
+            this.steropis.Text = resources.GetString("steropis.Text");
+            this.steropis.Click += new System.EventHandler(this.steropis_Click);
             // 
             // Tytulporady
             // 
             this.Tytulporady.AutoSize = true;
-            this.Tytulporady.Location = new System.Drawing.Point(388, 208);
+            this.Tytulporady.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Tytulporady.Location = new System.Drawing.Point(12, 275);
             this.Tytulporady.Name = "Tytulporady";
-            this.Tytulporady.Size = new System.Drawing.Size(40, 13);
+            this.Tytulporady.Size = new System.Drawing.Size(86, 25);
             this.Tytulporady.TabIndex = 6;
             this.Tytulporady.Text = "Porady";
             this.Tytulporady.Click += new System.EventHandler(this.Tytulporady_Click);
@@ -110,11 +119,13 @@ namespace JpwpGame
             // Opisporady
             // 
             this.Opisporady.AutoSize = true;
-            this.Opisporady.Location = new System.Drawing.Point(365, 243);
+            this.Opisporady.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Opisporady.Location = new System.Drawing.Point(12, 300);
             this.Opisporady.Name = "Opisporady";
-            this.Opisporady.Size = new System.Drawing.Size(91, 13);
+            this.Opisporady.Size = new System.Drawing.Size(663, 40);
             this.Opisporady.TabIndex = 7;
-            this.Opisporady.Text = "Tu wpisać porady";
+            this.Opisporady.Text = "Pamiętaj aby wybierać jak najzdrowsze wybory by utrzymać twoje statystyki na jak " +
+    "najwyższym\r\npoziomie i w efekcie czego dojść do wygrania gry";
             this.Opisporady.Click += new System.EventHandler(this.Opisporady_Click);
             // 
             // Pomoc

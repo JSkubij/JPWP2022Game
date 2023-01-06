@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace JpwpGame
 {
     public partial class Menu : Form
     {
+        ZdrowieToJestTo f6 = new ZdrowieToJestTo("test");
         public Menu()
         {
             InitializeComponent();
@@ -24,9 +26,8 @@ namespace JpwpGame
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ZdrowieToJestTo f2 = new ZdrowieToJestTo();
             this.Hide();
-            f2.ShowDialog();
+            f6.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -39,6 +40,20 @@ namespace JpwpGame
         private void Menu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string textToPass = "Przeslij";
+            ZdrowieToJestTo f2= new ZdrowieToJestTo(textToPass);
+            f2.Show();
+            this.Hide();
+            ///f2.ShowDialog();
         }
     }
 }

@@ -40,15 +40,22 @@ namespace JpwpGame
             this.Jedzenie3 = new System.Windows.Forms.PictureBox();
             this.zdrowiestatus = new System.Windows.Forms.Label();
             this.liczbadni = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.wyb1 = new System.Windows.Forms.PictureBox();
+            this.wyb2 = new System.Windows.Forms.PictureBox();
+            this.wyb3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Opis1 = new System.Windows.Forms.Label();
+            this.Opis2 = new System.Windows.Forms.Label();
+            this.Opis3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.postac)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wyb1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wyb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wyb3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -61,7 +68,7 @@ namespace JpwpGame
             // 
             this.postac.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.postac.Image = ((System.Drawing.Image)(resources.GetObject("postac.Image")));
-            this.postac.Location = new System.Drawing.Point(260, 481);
+            this.postac.Location = new System.Drawing.Point(414, 503);
             this.postac.Name = "postac";
             this.postac.Size = new System.Drawing.Size(60, 60);
             this.postac.TabIndex = 0;
@@ -143,35 +150,83 @@ namespace JpwpGame
             this.liczbadni.TabIndex = 7;
             this.liczbadni.Text = "Dzień ";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(51, 50);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(571, 440);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 32);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(377, 579);
+            this.label1.Location = new System.Drawing.Point(395, 579);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "https://icons8.com";
+            // 
+            // wyb1
+            // 
+            this.wyb1.Location = new System.Drawing.Point(40, 440);
+            this.wyb1.Name = "wyb1";
+            this.wyb1.Size = new System.Drawing.Size(100, 54);
+            this.wyb1.TabIndex = 11;
+            this.wyb1.TabStop = false;
+            this.wyb1.Tag = "wyb1";
+            // 
+            // wyb2
+            // 
+            this.wyb2.Location = new System.Drawing.Point(239, 440);
+            this.wyb2.Name = "wyb2";
+            this.wyb2.Size = new System.Drawing.Size(100, 54);
+            this.wyb2.TabIndex = 12;
+            this.wyb2.TabStop = false;
+            this.wyb2.Tag = "wyb2";
+            // 
+            // wyb3
+            // 
+            this.wyb3.Location = new System.Drawing.Point(425, 440);
+            this.wyb3.Name = "wyb3";
+            this.wyb3.Size = new System.Drawing.Size(100, 54);
+            this.wyb3.TabIndex = 13;
+            this.wyb3.TabStop = false;
+            this.wyb3.Tag = "wyb3";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(22, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Tag = "menu";
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_3);
+            // 
+            // Opis1
+            // 
+            this.Opis1.AutoSize = true;
+            this.Opis1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Opis1.Location = new System.Drawing.Point(36, 171);
+            this.Opis1.Name = "Opis1";
+            this.Opis1.Size = new System.Drawing.Size(88, 20);
+            this.Opis1.TabIndex = 15;
+            this.Opis1.Text = "Opis 1 pola";
+            // 
+            // Opis2
+            // 
+            this.Opis2.AutoSize = true;
+            this.Opis2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Opis2.Location = new System.Drawing.Point(36, 200);
+            this.Opis2.Name = "Opis2";
+            this.Opis2.Size = new System.Drawing.Size(88, 20);
+            this.Opis2.TabIndex = 16;
+            this.Opis2.Text = "Opis 2 pola";
+            // 
+            // Opis3
+            // 
+            this.Opis3.AutoSize = true;
+            this.Opis3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Opis3.Location = new System.Drawing.Point(36, 229);
+            this.Opis3.Name = "Opis3";
+            this.Opis3.Size = new System.Drawing.Size(88, 20);
+            this.Opis3.TabIndex = 17;
+            this.Opis3.Text = "Opis 3 pola";
             // 
             // ZdrowieToJestTo
             // 
@@ -180,9 +235,14 @@ namespace JpwpGame
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(824, 601);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.Opis3);
+            this.Controls.Add(this.Opis2);
+            this.Controls.Add(this.Opis1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.wyb3);
+            this.Controls.Add(this.wyb2);
+            this.Controls.Add(this.wyb1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.liczbadni);
             this.Controls.Add(this.Jedzenie3);
             this.Controls.Add(this.Jedzenie2);
@@ -201,8 +261,10 @@ namespace JpwpGame
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wyb1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wyb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wyb3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,8 +280,13 @@ namespace JpwpGame
         private System.Windows.Forms.PictureBox Jedzenie3;
         private System.Windows.Forms.Label zdrowiestatus;
         private System.Windows.Forms.Label liczbadni;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox wyb1;
+        private System.Windows.Forms.PictureBox wyb2;
+        private System.Windows.Forms.PictureBox wyb3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label Opis1;
+        private System.Windows.Forms.Label Opis2;
+        private System.Windows.Forms.Label Opis3;
     }
 }
