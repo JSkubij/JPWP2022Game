@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -103,6 +104,8 @@ namespace JpwpGame
 
         string test = "";
 
+        Stopwatch stopwatch = new Stopwatch();
+
         public ZdrowieToJestTo(string textToPass)
         {
             InitializeComponent();
@@ -116,6 +119,7 @@ namespace JpwpGame
                 Liczba_dni = Int32.Parse(sr.ReadLine());
                 sr.Close();
             }
+            
         }
         
 
@@ -137,7 +141,7 @@ namespace JpwpGame
             f3.ShowDialog();
         }
 
-        private void ruchTimer(object sender, EventArgs e)
+        public void ruchTimer(object sender, EventArgs e)
         {
             if (ruchLewo == true && postac.Left>0)
             {
@@ -160,6 +164,13 @@ namespace JpwpGame
             samopoczuciestatus.Text ="Samopoczucie: " + samopoczucie.ToString();
             kondycjastatus.Text = "Kondycja: " + kondycja.ToString();
             liczbadni.Text = "Dzień " + Liczba_dni;
+            stopwatch.Start();
+            stoper();
+            if (stopwatch.ElapsedMilliseconds / 1000 > 10)
+            {
+                stopwatch.Reset();
+                autowybor();
+            }
         }
         public void los3dania()
         {
@@ -616,6 +627,40 @@ namespace JpwpGame
             }
 
         }
+        private void stoper() {
+            Czas.Text = "Czas: " + stopwatch.ElapsedMilliseconds / 1000;
+        }
+        public void autowybor()
+        {
+            switch (warunek_los)
+            {
+                case 0:
+                    zdrowie -= 5;
+                    kondycja -= 5;
+                    samopoczucie -= 5;
+                    warunek_los = 0;
+                    break;
+                case 3:
+                    zdrowie -= 10;
+                    kondycja -= 10;
+                    samopoczucie -= 10;
+                    break;
+                case 4:
+                    zdrowie -= 15;
+                    kondycja -= 15;
+                    samopoczucie -= 15;
+                    break;
+                case 5:
+                    zdrowie -= 20;
+                    kondycja -= 20;
+                    samopoczucie -= 20;
+                    break;
+            }
+            warunek_los = 0;
+            czywybdan = true;
+            koniecgry();
+            resetopisow();
+        }
         public void losowanie(KeyEventArgs e)
         {
         powtorz:
@@ -636,6 +681,7 @@ namespace JpwpGame
                         {
                             warunek_los = 3;
                             los3dania();
+                            stopwatch.Start();
                             czywybdan = false;
                         }
                         else
@@ -653,6 +699,7 @@ namespace JpwpGame
                                 czywybdan = true;
                                 postac.Location = new Point(259,515);
                                 resetopisow();
+                                stopwatch.Reset();
                                 goto powtorz;
                             }
                             Liczba_los++;
@@ -687,6 +734,7 @@ namespace JpwpGame
                                 czywybdan = true;
                                 postac.Location = new Point(259, 515);
                                 resetopisow();
+                                stopwatch.Reset();
                                 goto powtorz;
                             }
                             Liczba_los++;
@@ -721,6 +769,7 @@ namespace JpwpGame
                                 czywybdan = true;
                                 postac.Location = new Point(259, 515);
                                 resetopisow();
+                                stopwatch.Reset();
                                 goto powtorz;
                             }
                             Liczba_los++;

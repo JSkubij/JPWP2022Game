@@ -48,6 +48,7 @@ namespace JpwpGame
             this.Opis1 = new System.Windows.Forms.Label();
             this.Opis2 = new System.Windows.Forms.Label();
             this.Opis3 = new System.Windows.Forms.Label();
+            this.Czas = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.postac)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie2)).BeginInit();
@@ -228,6 +229,15 @@ namespace JpwpGame
             this.Opis3.TabIndex = 17;
             this.Opis3.Text = "Opis 3 pola";
             // 
+            // Czas
+            // 
+            this.Czas.AutoSize = true;
+            this.Czas.Location = new System.Drawing.Point(755, 275);
+            this.Czas.Name = "Czas";
+            this.Czas.Size = new System.Drawing.Size(30, 13);
+            this.Czas.TabIndex = 18;
+            this.Czas.Text = "Czas";
+            // 
             // ZdrowieToJestTo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,6 +245,7 @@ namespace JpwpGame
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(824, 601);
+            this.Controls.Add(this.Czas);
             this.Controls.Add(this.Opis3);
             this.Controls.Add(this.Opis2);
             this.Controls.Add(this.Opis1);
@@ -288,5 +299,6 @@ namespace JpwpGame
         private System.Windows.Forms.Label Opis1;
         private System.Windows.Forms.Label Opis2;
         private System.Windows.Forms.Label Opis3;
+        private System.Windows.Forms.Label Czas;
     }
 }
