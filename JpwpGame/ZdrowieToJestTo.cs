@@ -24,45 +24,45 @@ namespace JpwpGame
         /// </summary>
         /// Owoce
         int ile_Owoce=6;
-        int[] Wartosci_jedzenia_zdrowie_Owoce = {1,1,1,1,1,1};
-        int[] Wartosci_jedzenia_samopoczucie_Owoce = { 1, 1, 1, 1, 1, 1 };
-        int[] Wartosci_jedzenia_kondycja_Owoce = { 1, 1, 1, 1, 1, 1 };
+        int[] Wartosci_jedzenia_zdrowie_Owoce = {2,3,5,2,1,4};
+        int[] Wartosci_jedzenia_samopoczucie_Owoce = { 1, 2, 5, 1, 3, 2 };
+        int[] Wartosci_jedzenia_kondycja_Owoce = { 2, 1, 5, 2, 3, 1 };
         string[] Opisy_Owoce = {"Jabłko","Morela","Awokado","Banan","Pomarańcza","Ananas"};
         /// Desery
         int ile_Desery=6;
-        int[] Wartosci_jedzenia_zdrowie_Desery = {2,2,2,2,2,2};
-        int[] Wartosci_jedzenia_samopoczucie_Desery = { 2, 2, 2, 2, 2, 2 };
-        int[] Wartosci_jedzenia_kondycja_Desery = { 2, 2, 2, 2, 2, 2 };
+        int[] Wartosci_jedzenia_zdrowie_Desery = {-2,-3,-5,0,-1,-1};
+        int[] Wartosci_jedzenia_samopoczucie_Desery = { 3, 1, 2, 4, 1, 2 };
+        int[] Wartosci_jedzenia_kondycja_Desery = { -5, -2, -3, -2, -2, -1 };
         string[] Opisy_Desery = {"Deser lodowy","Ciasto z owocami", "Sernik","Sernik z owocami","Pucharek lodowy","Galaretka owocowa"};
         /// Slodycze
         int ile_Slodycze=9;
-        int[] Wartosci_jedzenia_zdrowie_Slodycze = {3,3,3,3,3,3,3,3,3};
-        int[] Wartosci_jedzenia_samopoczucie_Slodycze = { 3, 3, 3, 3, 3, 3, 3, 3, 3 };
-        int[] Wartosci_jedzenia_kondycja_Slodycze = { 3, 3, 3, 3, 3, 3, 3, 3, 3 };
+        int[] Wartosci_jedzenia_zdrowie_Slodycze = {-10,-2,-1,-2,-3,-4,-1,-3,-8};
+        int[] Wartosci_jedzenia_samopoczucie_Slodycze = { 10, 2, 1, 4, -3, 5, 1, -3, -2 };
+        int[] Wartosci_jedzenia_kondycja_Slodycze = { -5, -3, -3, -2, -10, 3, -3, 1, -4 };
         string[] Opisy_Slodycze = {"Cukierek", "Wata cukrowa", "Ciastka z czekoladą", "Biała czekolada", "Czekolada", "Donat", "Rogalik", "Kanapka z kremem czekoladowym","Lód" };
         /// Napoje
         int ile_Napoje=5;
-        int[] Wartosci_jedzenia_zdrowie_Napoje = {4,4,4,4,4};
-        int[] Wartosci_jedzenia_samopoczucie_Napoje = { 4, 4, 4, 4, 4 };
-        int[] Wartosci_jedzenia_kondycja_Napoje = { 4, 4, 4, 4, 4 };
+        int[] Wartosci_jedzenia_zdrowie_Napoje = {4,-10,5,0,10};
+        int[] Wartosci_jedzenia_samopoczucie_Napoje = { 4, 3, 6, 2, 0 };
+        int[] Wartosci_jedzenia_kondycja_Napoje = { 4, -10, 5, 3, 6 };
         string[] Opisy_Napoje = {"Mleko kokosowe", "Cola","Mleko owsiane","Mleko","Zielona herbata"};
         /// Fastfood
         int ile_Fastfood=6;
-        int[] Wartosci_jedzenia_zdrowie_Fastfood = {5,5,5,5,5,5};
-        int[] Wartosci_jedzenia_samopoczucie_Fastfood = { 5, 5, 5, 5, 5, 5 };
-        int[] Wartosci_jedzenia_kondycja_Fastfood = { 5, 5, 5, 5, 5, 5 };
+        int[] Wartosci_jedzenia_zdrowie_Fastfood = {-5,-10,-3,-6,-1,-3};
+        int[] Wartosci_jedzenia_samopoczucie_Fastfood = { -4, -9, -2, -1, -2, -1 };
+        int[] Wartosci_jedzenia_kondycja_Fastfood = { -5, 0, 0, -3, -2, -1 };
         string[] Opisy_Fastfood = {"Frytki z głebokiego oleju", "Burger", "Hot-dog","Pałeczki kurczaka","Pizza","Popcorn"};
         /// Dania
         int ile_Dania=9;
-        int[] Wartosci_jedzenia_zdrowie_Dania = {6,6,6,6,6,6,6,6,6,6,6};
-        int[] Wartosci_jedzenia_samopoczucie_Dania = { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 };
-        int[] Wartosci_jedzenia_kondycja_Dania = { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 };
+        int[] Wartosci_jedzenia_zdrowie_Dania = {3,10,4,1,8,10,4,5,6,7,9};
+        int[] Wartosci_jedzenia_samopoczucie_Dania = { 4, 10, 3, 8, 10, 6, 2, 3, 4, 5, 6 };
+        int[] Wartosci_jedzenia_kondycja_Dania = { 1, 10, -4, -1, 8, 10, -4, 2, 1, 4, 1 };
         string[] Opisy_Dania = {"Burito", "Płatki owsiane","Pierogi z mięsem","Jajko sadzone", "Sałatka","Sushi","Lazania","Makaron","Naleśniki z owocami"};
         /// Śnadania/Kolecje/SK
         int ile_SK=7;
-        int[] Wartosci_jedzenia_zdrowie_Sk = {7,7,7,7,7,7,7};
-        int[] Wartosci_jedzenia_samopoczucie_Sk = { 7, 7, 7, 7, 7, 7, 7 };
-        int[] Wartosci_jedzenia_kondycja_Sk = { 7, 7, 7, 7, 7, 7, 7 };
+        int[] Wartosci_jedzenia_zdrowie_Sk = {2, 5, 3, 2, 1, 10, 0 };
+        int[] Wartosci_jedzenia_samopoczucie_Sk = { 1, 10, 2, 4, 1, 5, 5 };
+        int[] Wartosci_jedzenia_kondycja_Sk = { -1, 10, -3, 4, 5, 3, -3 };
         string[] Opisy_Sk = {"Tost z jajkiem", "Sałatka", "Jajko sadzone","Jogurt","Naleśniki z owocami","Płatki owsiane","Kanapka z kremem czekoladowym"};
 
 
@@ -78,41 +78,56 @@ namespace JpwpGame
         bool czywybdan = true;
         Random rnd = new Random();
 
-        static string[] Sciezki_do_wyborow_Ile = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Ile", "*.png");
+        /// <summary>
+        /// Scieżki do obrazków produktów *BARDZO WAŻNE GRA MUSI SIĘ ZNAJDOWAĆ NA DYSKU C, ŻEBY DZIAŁAŁA POPRWANIE.
+        /// </summary>
+        static string[] Sciezki_do_wyborow_Ile = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Ile", "*.png");
         List<string> obrazy = Sciezki_do_wyborow_Ile.ToList();
 
-        static string[] Sciezki_do_wyborow_Dania = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Dania", "*.png");
+        static string[] Sciezki_do_wyborow_Dania = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Dania", "*.png");
         List<string> obrazy1 = Sciezki_do_wyborow_Dania.ToList();
 
-        static string[] Sciezki_do_wyborow_Desery = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Desery", "*.png");
+        static string[] Sciezki_do_wyborow_Desery = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Desery", "*.png");
         List<string> obrazy2 = Sciezki_do_wyborow_Desery.ToList();
 
-        static string[] Sciezki_do_wyborow_Fast = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Fast", "*.png");
+        static string[] Sciezki_do_wyborow_Fast = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Fast", "*.png");
         List<string> obrazy3 = Sciezki_do_wyborow_Fast.ToList();
 
-        static string[] Sciezki_do_wyborow_Napoj = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Napoj", "*.png");
+        static string[] Sciezki_do_wyborow_Napoj = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Napoj", "*.png");
         List<string> obrazy4 = Sciezki_do_wyborow_Napoj.ToList();
 
-        static string[] Sciezki_do_wyborow_Owoc = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Owoc", "*.png");
+        static string[] Sciezki_do_wyborow_Owoc = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Owoc", "*.png");
         List<string> obrazy5 = Sciezki_do_wyborow_Owoc.ToList();
 
-        static string[] Sciezki_do_wyborow_Sk = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Sk", "*.png");
+        static string[] Sciezki_do_wyborow_Sk = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Sk", "*.png");
         List<string> obrazy6 = Sciezki_do_wyborow_Sk.ToList();
 
-        static string[] Sciezki_do_wyborow_Slodycze = Directory.GetFiles(@"C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\Obrazy\Slodycze", "*.png");
+        static string[] Sciezki_do_wyborow_Slodycze = Directory.GetFiles(@"C:\JpwpGame\Obrazy\Slodycze", "*.png");
         List<string> obrazy7 = Sciezki_do_wyborow_Slodycze.ToList();
 
+        /// <summary>
+        /// Zmienna pomocnicza do wczytywania gry
+        /// </summary>
         string test = "";
 
+        /// <summary>
+        /// Deklaracja miernika czasu w grze
+        /// </summary>
         Stopwatch stopwatch = new Stopwatch();
 
+        /// <summary>
+        /// BARDZO WAŻNE GRA MUSI SIĘ ZNAJDOWAĆ NA DYSKU C, ŻEBY DZIAŁAŁA POPRWANIE, ZE WZGLĘDU NA ŚCIEŻKI PLIKÓW.
+        /// W głównej funkcji jest sprawdzanie czy gra powinna być wczytana czy zaczęta od nowa.
+        /// </summary>
+        /// <param name="textToPass"></param>
         public ZdrowieToJestTo(string textToPass)
         {
             InitializeComponent();
             test = textToPass;
             if (test == "Przeslij")
             {
-                StreamReader sr = new StreamReader("C:\\Users\\jakub\\OneDrive\\Pulpit\\Studia\\SEM 5\\JPWP\\JpwpGame\\zapis.txt");
+                ///*BARDZO WAŻNE GRA MUSI SIĘ ZNAJDOWAĆ NA DYSKU C, ŻEBY DZIAŁAŁA POPRWANIE.
+                StreamReader sr = new StreamReader("C:\\JpwpGame\\zapis.txt");
                 zdrowie = Int32.Parse(sr.ReadLine());
                 samopoczucie = Int32.Parse(sr.ReadLine());
                 kondycja = Int32.Parse(sr.ReadLine());
@@ -127,10 +142,15 @@ namespace JpwpGame
         {
 
         }
-
+        /// <summary>
+        /// Funkcja zapisująca nasz postęp do pliku, w celu wczytania gry.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void pictureBox1_Click_3(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter("C:\\Users\\jakub\\OneDrive\\Pulpit\\Studia\\SEM 5\\JPWP\\JpwpGame\\zapis.txt");
+            ///*BARDZO WAŻNE GRA MUSI SIĘ ZNAJDOWAĆ NA DYSKU C, ŻEBY DZIAŁAŁA POPRWANIE.
+            StreamWriter sw = new StreamWriter("C:\\JpwpGame\\zapis.txt");
             sw.WriteLine(zdrowie);
             sw.WriteLine(samopoczucie);
             sw.WriteLine(kondycja);
@@ -140,24 +160,28 @@ namespace JpwpGame
             this.Hide();
             f3.ShowDialog();
         }
-
+        /// <summary>
+        /// Funkcja timera, realizująca ruch postaci, aktualizowanie wyświetlania statystyk, funkcji stopera i automatycznego wyboru.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void ruchTimer(object sender, EventArgs e)
         {
-            if (ruchLewo == true && postac.Left>0)
+            if (ruchLewo == true && postacc.Left>0)
             {
-                postac.Left -= speed;
+                postacc.Left -= speed;
             }
-            if (ruchPrawo == true && postac.Left<761)
+            if (ruchPrawo == true && postacc.Left<761)
             {
-                postac.Left += speed;
+                postacc.Left += speed;
             }
-            if (ruchGora == true && postac.Top >0)
+            if (ruchGora == true && postacc.Top >0)
             {
-                postac.Top -= speed;
+                postacc.Top -= speed;
             }
-            if (ruchDol == true && postac.Top <542)
+            if (ruchDol == true && postacc.Top <542)
             {
-                postac.Top += speed;
+                postacc.Top += speed;
             }
 
             zdrowiestatus.Text = "Zdrowie: " + zdrowie.ToString();
@@ -166,12 +190,15 @@ namespace JpwpGame
             liczbadni.Text = "Dzień " + Liczba_dni;
             stopwatch.Start();
             stoper();
-            if (stopwatch.ElapsedMilliseconds / 1000 > 10)
+            if (stopwatch.ElapsedMilliseconds / 1000 > 30)
             {
                 stopwatch.Reset();
                 autowybor();
             }
         }
+        /// <summary>
+        /// Funkcja losowania dla ilości 3 dań
+        /// </summary>
         public void los3dania()
         {
             if (warunek_los == 3)
@@ -217,6 +244,9 @@ namespace JpwpGame
                 }
             }
         }
+        /// <summary>
+        /// Funkcja losowania dla ilości 4 dań
+        /// </summary>
         public void los4dania()
         {
             if (warunek_los == 4)
@@ -274,6 +304,9 @@ namespace JpwpGame
                 }
             }
         }
+        /// <summary>
+        /// Funkcja losowania dla ilości 3 dań
+        /// </summary>
         public void los5dania()
         {
             if (warunek_los == 5)
@@ -343,6 +376,10 @@ namespace JpwpGame
                 }
             }
         }
+        /// <summary>
+        /// Funkcja egzkwowania wyborów dla ilości 5 dań
+        /// </summary>
+        /// <param name="klawisz">Zmienna informująca który klawisz został kliknięty</param>
         public void odlos5dania(int klawisz)
         {
             switch (Liczba_los)
@@ -449,6 +486,10 @@ namespace JpwpGame
                     break;
             }
         }
+        /// <summary>
+        /// Funkcja egzkwowania wyborów dla ilości 4 dań
+        /// </summary>
+        /// <param name="klawisz">Zmienna informująca który klawisz został kliknięty</param>
         public void odlos4dania(int klawisz) {
             switch (Liczba_los) {
                 case 1:
@@ -531,6 +572,10 @@ namespace JpwpGame
                     break;
             }
         }
+        /// <summary>
+        /// Funkcja egzkwowania wyborów dla ilości 3 dań
+        /// </summary>
+        /// <param name="klawisz">Zmienna informująca który klawisz został kliknięty</param>
         public void odlos3dania(int klawisz)
         {
             switch (Liczba_los)
@@ -597,16 +642,22 @@ namespace JpwpGame
                     break;
             }
         }
+        /// <summary>
+        /// Funkcja realizująca reset tekstów w opisach produktów
+        /// </summary>
         public void resetopisow() {
             Opis1.Text = "Opis 1 pola";
             Opis2.Text = "Opis 2 pola";
             Opis3.Text = "Opis 3 pola";
         }
+        /// <summary>
+        /// Funkcja realizująca koniec gry
+        /// </summary>
         public void koniecgry()
         {
             if (zdrowie <= 20 || samopoczucie <= 20 || kondycja <= 20)
             {
-                StreamWriter sw = new StreamWriter("C:\\Users\\jakub\\OneDrive\\Pulpit\\Studia\\SEM 5\\JPWP\\JpwpGame\\dane.txt");
+                StreamWriter sw = new StreamWriter("C:\\JpwpGame\\dane.txt");
                 sw.WriteLine("Przegrana! :<");
                 sw.WriteLine("Udało ci się przeżyć: ");
                 sw.WriteLine(Liczba_dni + " dni");
@@ -616,7 +667,7 @@ namespace JpwpGame
                 f4.ShowDialog();
             }
             else if (zdrowie >= 100 && samopoczucie >= 100 && kondycja >= 100) {
-                StreamWriter sw = new StreamWriter("C:\\Users\\jakub\\OneDrive\\Pulpit\\Studia\\SEM 5\\JPWP\\JpwpGame\\dane.txt");
+                StreamWriter sw = new StreamWriter("C:\\JpwpGame\\dane.txt");
                 sw.WriteLine("Udało ci się, gratulacje!");
                 sw.WriteLine("Udało ci się przeżyć: ");
                 sw.WriteLine(Liczba_dni+" dni");
@@ -627,17 +678,23 @@ namespace JpwpGame
             }
 
         }
+        /// <summary>
+        /// Funkcja zwiekszania wartosci stopera.
+        /// </summary>
         private void stoper() {
             Czas.Text = "Czas: " + stopwatch.ElapsedMilliseconds / 1000;
         }
+        /// <summary>
+        /// Funkcja autoamtycznego wyboru gdy gracz go niepodejmuje.
+        /// </summary>
         public void autowybor()
         {
             switch (warunek_los)
             {
                 case 0:
-                    zdrowie -= 5;
-                    kondycja -= 5;
-                    samopoczucie -= 5;
+                    zdrowie -= 0;
+                    kondycja -= 0;
+                    samopoczucie -= 0;
                     warunek_los = 0;
                     break;
                 case 3:
@@ -661,6 +718,10 @@ namespace JpwpGame
             koniecgry();
             resetopisow();
         }
+        /// <summary>
+        /// Funkcja odpowiedzialna za mechanikę losowania i funkcjonowania gry.
+        /// </summary>
+        /// <param name="e"></param>
         public void losowanie(KeyEventArgs e)
         {
         powtorz:
@@ -675,7 +736,7 @@ namespace JpwpGame
             {
                 if (x is PictureBox && (string)x.Tag == "wyb1")
                 {
-                    if (postac.Bounds.IntersectsWith(x.Bounds) && e.KeyCode == Keys.NumPad1)
+                    if (postacc.Bounds.IntersectsWith(x.Bounds) && e.KeyCode == Keys.NumPad1)
                     {
                         if (czywybdan == true)
                         {
@@ -697,7 +758,7 @@ namespace JpwpGame
                                 warunek_los = 0;
                                 Liczba_dni++;
                                 czywybdan = true;
-                                postac.Location = new Point(259,515);
+                                postacc.Location = new Point(259,515);
                                 resetopisow();
                                 stopwatch.Reset();
                                 goto powtorz;
@@ -711,7 +772,7 @@ namespace JpwpGame
                 }
                 if (x is PictureBox && (string)x.Tag == "wyb2")
                 {
-                    if (postac.Bounds.IntersectsWith(x.Bounds) && e.KeyCode == Keys.NumPad2)
+                    if (postacc.Bounds.IntersectsWith(x.Bounds) && e.KeyCode == Keys.NumPad2)
                     {
                         if (czywybdan == true)
                         {
@@ -732,7 +793,7 @@ namespace JpwpGame
                                 warunek_los = 0;
                                 Liczba_dni++;
                                 czywybdan = true;
-                                postac.Location = new Point(259, 515);
+                                postacc.Location = new Point(259, 515);
                                 resetopisow();
                                 stopwatch.Reset();
                                 goto powtorz;
@@ -746,7 +807,7 @@ namespace JpwpGame
                 }
                 if (x is PictureBox && (string)x.Tag == "wyb3")
                 {
-                    if (postac.Bounds.IntersectsWith(x.Bounds) && e.KeyCode == Keys.NumPad3)
+                    if (postacc.Bounds.IntersectsWith(x.Bounds) && e.KeyCode == Keys.NumPad3)
                     {
                         if (czywybdan == true)
                         {
@@ -767,7 +828,7 @@ namespace JpwpGame
                                 warunek_los = 0;
                                 Liczba_dni++;
                                 czywybdan = true;
-                                postac.Location = new Point(259, 515);
+                                postacc.Location = new Point(259, 515);
                                 resetopisow();
                                 stopwatch.Reset();
                                 goto powtorz;
@@ -781,7 +842,11 @@ namespace JpwpGame
                 }
             }
         }
-
+        /// <summary>
+        /// Funkcja odpowiedzialna za chodzenie w dół
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dol(object sender, KeyEventArgs e)
         {
             if (e.KeyCode== Keys.Left)
@@ -807,7 +872,11 @@ namespace JpwpGame
         {
 
         }
-
+        /// <summary>
+        /// Funkcja odpowiedzialna za chodzenie w górę
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void gora(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -837,7 +906,11 @@ namespace JpwpGame
         {
 
         }
-
+        /// <summary>
+        /// Funkcja odpowiedzialna za wyłączenie aplikacji bo zamknięciu okna gry.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();

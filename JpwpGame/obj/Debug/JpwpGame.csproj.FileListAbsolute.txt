@@ -21,3 +21,29 @@ C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\Jpw
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Menu.resources
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Pomoc.resources
 C:\Users\jakub\OneDrive\Pulpit\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Koncowy.resources
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\bin\Debug\JpwpGame.exe.config
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\bin\Debug\JpwpGame.exe
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\bin\Debug\JpwpGame.pdb
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.AssemblyReference.cache
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Koncowy.resources
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Menu.resources
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Pomoc.resources
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.ZdrowieToJestTo.resources
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Properties.Resources.resources
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.GenerateResource.cache
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.exe
+C:\Users\jakub\Desktop\Studia\SEM 5\JPWP\JpwpGame\JpwpGame\obj\Debug\JpwpGame.pdb
+C:\JpwpGame\JpwpGame\bin\Debug\JpwpGame.exe.config
+C:\JpwpGame\JpwpGame\bin\Debug\JpwpGame.exe
+C:\JpwpGame\JpwpGame\bin\Debug\JpwpGame.pdb
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.AssemblyReference.cache
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Koncowy.resources
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Menu.resources
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Pomoc.resources
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.ZdrowieToJestTo.resources
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.Properties.Resources.resources
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.GenerateResource.cache
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.csproj.CoreCompileInputs.cache
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.exe
+C:\JpwpGame\JpwpGame\obj\Debug\JpwpGame.pdb

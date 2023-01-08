@@ -21,7 +21,11 @@ namespace JpwpGame
         {
 
         }
-
+        /// <summary>
+        /// Funkcja realizująca powrót do Menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void powrot_Click(object sender, EventArgs e)
         {
             Menu f4 = new Menu();
@@ -53,7 +57,11 @@ namespace JpwpGame
         {
 
         }
-
+        /// <summary>
+        /// Funkcja odpowiedzialna za wyłączenie aplikacji bo zamknięciu okna pomoc.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Pomoc_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();

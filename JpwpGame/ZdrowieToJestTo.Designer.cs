@@ -32,7 +32,6 @@ namespace JpwpGame
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZdrowieToJestTo));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.postac = new System.Windows.Forms.PictureBox();
             this.Jedzenie1 = new System.Windows.Forms.PictureBox();
             this.samopoczuciestatus = new System.Windows.Forms.Label();
             this.kondycjastatus = new System.Windows.Forms.Label();
@@ -49,7 +48,7 @@ namespace JpwpGame
             this.Opis2 = new System.Windows.Forms.Label();
             this.Opis3 = new System.Windows.Forms.Label();
             this.Czas = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.postac)).BeginInit();
+            this.postacc = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie3)).BeginInit();
@@ -57,6 +56,7 @@ namespace JpwpGame
             ((System.ComponentModel.ISupportInitialize)(this.wyb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wyb3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postacc)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -64,18 +64,6 @@ namespace JpwpGame
             this.timer1.Enabled = true;
             this.timer1.Interval = 20;
             this.timer1.Tick += new System.EventHandler(this.ruchTimer);
-            // 
-            // postac
-            // 
-            this.postac.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.postac.Image = ((System.Drawing.Image)(resources.GetObject("postac.Image")));
-            this.postac.Location = new System.Drawing.Point(414, 503);
-            this.postac.Name = "postac";
-            this.postac.Size = new System.Drawing.Size(60, 60);
-            this.postac.TabIndex = 0;
-            this.postac.TabStop = false;
-            this.postac.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.postac.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.postac_PreviewKeyDown);
             // 
             // Jedzenie1
             // 
@@ -191,7 +179,7 @@ namespace JpwpGame
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 50);
             this.pictureBox1.TabIndex = 14;
@@ -232,11 +220,24 @@ namespace JpwpGame
             // Czas
             // 
             this.Czas.AutoSize = true;
-            this.Czas.Location = new System.Drawing.Point(755, 275);
+            this.Czas.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.Czas.Location = new System.Drawing.Point(625, 264);
             this.Czas.Name = "Czas";
-            this.Czas.Size = new System.Drawing.Size(30, 13);
+            this.Czas.Size = new System.Drawing.Size(90, 37);
             this.Czas.TabIndex = 18;
             this.Czas.Text = "Czas";
+            // 
+            // postacc
+            // 
+            this.postacc.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.postacc.Image = ((System.Drawing.Image)(resources.GetObject("postacc.Image")));
+            this.postacc.Location = new System.Drawing.Point(260, 513);
+            this.postacc.Name = "postacc";
+            this.postacc.Size = new System.Drawing.Size(60, 60);
+            this.postacc.TabIndex = 19;
+            this.postacc.TabStop = false;
+            this.postacc.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.postacc.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.postac_PreviewKeyDown);
             // 
             // ZdrowieToJestTo
             // 
@@ -245,6 +246,7 @@ namespace JpwpGame
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(824, 601);
+            this.Controls.Add(this.postacc);
             this.Controls.Add(this.Czas);
             this.Controls.Add(this.Opis3);
             this.Controls.Add(this.Opis2);
@@ -261,14 +263,12 @@ namespace JpwpGame
             this.Controls.Add(this.samopoczuciestatus);
             this.Controls.Add(this.zdrowiestatus);
             this.Controls.Add(this.Jedzenie1);
-            this.Controls.Add(this.postac);
             this.Name = "ZdrowieToJestTo";
             this.Text = "ZdrowieTojestTo!";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dol);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.gora);
-            ((System.ComponentModel.ISupportInitialize)(this.postac)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Jedzenie3)).EndInit();
@@ -276,6 +276,7 @@ namespace JpwpGame
             ((System.ComponentModel.ISupportInitialize)(this.wyb2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wyb3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postacc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,7 +284,6 @@ namespace JpwpGame
 
         #endregion
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.PictureBox postac;
         private System.Windows.Forms.PictureBox Jedzenie1;
         private System.Windows.Forms.Label samopoczuciestatus;
         private System.Windows.Forms.Label kondycjastatus;
@@ -300,5 +300,6 @@ namespace JpwpGame
         private System.Windows.Forms.Label Opis2;
         private System.Windows.Forms.Label Opis3;
         private System.Windows.Forms.Label Czas;
+        private System.Windows.Forms.PictureBox postacc;
     }
 }

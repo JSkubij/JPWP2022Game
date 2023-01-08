@@ -41,7 +41,7 @@ namespace JpwpGame
             // 
             this.Tytul.AutoSize = true;
             this.Tytul.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Tytul.Location = new System.Drawing.Point(349, 52);
+            this.Tytul.Location = new System.Drawing.Point(355, 51);
             this.Tytul.Name = "Tytul";
             this.Tytul.Size = new System.Drawing.Size(97, 37);
             this.Tytul.TabIndex = 0;
@@ -52,7 +52,7 @@ namespace JpwpGame
             // 
             this.Linia1.AutoSize = true;
             this.Linia1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Linia1.Location = new System.Drawing.Point(351, 108);
+            this.Linia1.Location = new System.Drawing.Point(357, 108);
             this.Linia1.Name = "Linia1";
             this.Linia1.Size = new System.Drawing.Size(100, 29);
             this.Linia1.TabIndex = 1;
@@ -62,7 +62,7 @@ namespace JpwpGame
             // 
             this.Linia2.AutoSize = true;
             this.Linia2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.Linia2.Location = new System.Drawing.Point(351, 151);
+            this.Linia2.Location = new System.Drawing.Point(357, 154);
             this.Linia2.Name = "Linia2";
             this.Linia2.Size = new System.Drawing.Size(106, 29);
             this.Linia2.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace JpwpGame
             // 
             this.wynik.AutoSize = true;
             this.wynik.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.wynik.Location = new System.Drawing.Point(368, 193);
+            this.wynik.Location = new System.Drawing.Point(357, 194);
             this.wynik.Name = "wynik";
             this.wynik.Size = new System.Drawing.Size(78, 29);
             this.wynik.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace JpwpGame
             // 
             // menu
             // 
-            this.menu.Location = new System.Drawing.Point(342, 282);
+            this.menu.Location = new System.Drawing.Point(362, 457);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(115, 63);
             this.menu.TabIndex = 4;
@@ -92,7 +92,7 @@ namespace JpwpGame
             // 
             // wyjdz
             // 
-            this.wyjdz.Location = new System.Drawing.Point(342, 351);
+            this.wyjdz.Location = new System.Drawing.Point(362, 526);
             this.wyjdz.Name = "wyjdz";
             this.wyjdz.Size = new System.Drawing.Size(115, 63);
             this.wyjdz.TabIndex = 5;
@@ -104,7 +104,7 @@ namespace JpwpGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(824, 601);
             this.Controls.Add(this.wyjdz);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.wynik);

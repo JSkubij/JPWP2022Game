@@ -34,6 +34,8 @@ namespace JpwpGame
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tytul
@@ -87,11 +89,36 @@ namespace JpwpGame
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F);
+            this.label1.Location = new System.Drawing.Point(12, 392);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(285, 99);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Autor:\r\nJakub Skubij 184282\r\nELE 1, Sem. 5";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(12, 492);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(604, 100);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Temat gry:\r\nGracz będzie próbował utrzymać swoje trzy statystyki postaci \r\nna odp" +
+    "owiednim poziomie, poprzez dobór odpowiedniej \r\ndiety na podstawie wyborów jakie" +
+    " gra zaoferuje. \r\n";
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 601);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -112,6 +139,8 @@ namespace JpwpGame
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

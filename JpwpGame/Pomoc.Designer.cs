@@ -42,7 +42,7 @@ namespace JpwpGame
             // 
             // powrot
             // 
-            this.powrot.Location = new System.Drawing.Point(347, 365);
+            this.powrot.Location = new System.Drawing.Point(347, 526);
             this.powrot.Name = "powrot";
             this.powrot.Size = new System.Drawing.Size(115, 63);
             this.powrot.TabIndex = 0;
@@ -132,7 +132,7 @@ namespace JpwpGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(824, 601);
             this.Controls.Add(this.Opisporady);
             this.Controls.Add(this.Tytulporady);
             this.Controls.Add(this.steropis);
